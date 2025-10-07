@@ -1,0 +1,12 @@
+Layer	Tech	Notes
+
+Frontend	React + Expo + TailwindCSS	responsive learning interface
+Backend	Firebase Functions	AI tutor, analytics, mail triggers
+Auth	Firebase Auth + Stripe BuzzPay	family & tiered plans
+Realtime	Firestore + Storage	progress, badges, avatars
+UI	Webflow AutoFlow	visual CMS, push-to-Firebase sync
+DevOps	GitHub Actions + Replit Runner	build + deploy automation
+
+
+
+---
