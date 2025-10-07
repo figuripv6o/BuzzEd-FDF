@@ -1,0 +1,27 @@
+Local / Termux / Replit
+
+# Clone and install
+git clone https://github.com/figuripv6o/BuzzEd-FDF.git
+cd BuzzEd-FDF
+npm install
+
+# Start locally or Replit
+npm start
+
+# Build Expo app
+expo build:android
+expo build:ios
+
+# Push to GitHub + Firebase
+bash scripts/buzzpush.sh
+
+Auto-Push Script (scripts/buzzpush.sh)
+
+#!/bin/bash
+git add .
+git commit -m "BuzzEd auto-commit 🐝"
+git push origin main
+firebase deploy
+
+
+---
