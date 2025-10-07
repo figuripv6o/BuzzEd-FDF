@@ -1,0 +1,36 @@
+1. Create a new Replit Node.js project
+
+
+2. Upload repo or connect via GitHub
+
+
+3. Set environment variables:
+
+FIREBASE_API_KEY=...
+STRIPE_SECRET_KEY=...
+BUZZ_MODE=production
+
+
+4. Click Run → it launches the same build used for Firebase Hosting.
+
+
+
+
+---
+
+🧱 8️⃣  BuzzEd AutoFlow (Marketing + Updates)
+
+BuzzFlow.json defines marketing banners, blog posts, and app updates.
+
+Firebase Functions watch for new content and push to:
+
+WebFlow CMS
+
+In-app BuzzFeed panel
+
+Weekly email digest (Mailchimp API)
+
+
+
+
+---
