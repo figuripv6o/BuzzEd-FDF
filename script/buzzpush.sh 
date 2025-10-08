@@ -1,0 +1,13 @@
+#!/bin/bash
+# 🐝 BuzzEd One-Shot E2E Auto Deploy
+set -e
+echo "🚀 Building BuzzEd-FDF..."
+npm install
+npm run build
+echo "⚡ Pushing to GitHub..."
+git add .
+git commit -m "BuzzEd One-Shot Deploy $(date '+%Y-%m-%d %H:%M:%S') ⚡"
+git push origin main
+echo "☁️ Deploying to Firebase..."
+npx firebase deploy --only hosting
+echo "✅ BuzzEd fully deployed 🐝"
