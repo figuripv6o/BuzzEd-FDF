@@ -1,0 +1,18 @@
+# 1️⃣ Clone
+git clone https://github.com/figuripv6o/BuzzEd-FDF-Webflow-E2E.git
+cd BuzzEd-FDF-Webflow-E2E
+
+# 2️⃣ Install
+npm install
+
+# 3️⃣ Build Webflow content
+bash scripts/buzzsync.sh
+
+# 4️⃣ Run local preview
+npm start
+
+# 5️⃣ Deploy to Firebase
+bash scripts/buzzdeploy.sh
+
+
+---
