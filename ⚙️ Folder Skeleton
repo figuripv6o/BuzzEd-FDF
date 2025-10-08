@@ -1,0 +1,63 @@
+BuzzEd-FDF-Webflow-E2E/
+│
+├── webflow_export/
+│   ├── index.html
+│   ├── about.html
+│   ├── learn.html
+│   ├── blog.html
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   └── cms/
+│       ├── lessons.json
+│       ├── blog_posts.json
+│       └── rewards.json
+│
+├── firebase/
+│   ├── firebaseConfig.js
+│   ├── firestore.rules
+│   ├── functions/
+│   │   ├── index.js        # WebFlow → Firebase sync
+│   │   └── webhookHandler.js
+│
+├── src/
+│   ├── App.js
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── HeroSection.js
+│   │   ├── GradeSelector.js
+│   │   ├── LessonCard.js
+│   │   ├── BuzzCoinBar.js
+│   │   ├── ParentPanel.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Learn.js
+│   │   ├── About.js
+│   │   ├── Blog.js
+│   │   └── Dashboard.js
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── buzzdrip.css
+│   │   └── animations.css
+│   ├── assets/
+│   │   ├── posters/
+│   │   └── logo/
+│   ├── hooks/
+│   ├── context/
+│   │   └── BuzzContext.js
+│   └── utils/
+│       ├── firestoreOps.js
+│       └── webflowSync.js
+│
+├── scripts/
+│   ├── buzzbuild.sh      # Webflow → Firebase → Expo build
+│   ├── buzzdeploy.sh     # Auto push + Firebase deploy
+│   └── buzzsync.sh       # Pull new CMS data from Webflow
+│
+├── .firebaserc
+├── firebase.json
+├── package.json
+├── README.md
+└── app.json
